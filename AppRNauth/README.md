@@ -7,7 +7,7 @@
 
 ## Installation
 ```bash
-$ npm install
+$ npm i
 ```
 
 ## Setting up the React Native iOS environment
