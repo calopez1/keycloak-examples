@@ -35,12 +35,12 @@ export default () => {
   }, []);
   const configs = {
     apprnauth: {
-      issuer: 'http://localhost:8080/auth/realms/djangowebapp-realm',
+      issuer: 'http://keycloak-service-gonzaloaragon-dev.apps.sandbox.x8i5.p1.openshiftapps.com/auth/realms/comfandi',
       clientId: 'react-native-app',
       redirectUrl: 'apprnauth.demo:/oauthredirect',
       serviceConfiguration: {
-        authorizationEndpoint: 'http://localhost:8080/auth/realms/djangowebapp-realm/protocol/openid-connect/auth',
-        tokenEndpoint: 'http://localhost:8080/auth/realms/djangowebapp-realm/protocol/openid-connect/token',
+        authorizationEndpoint: 'http://keycloak-service-gonzaloaragon-dev.apps.sandbox.x8i5.p1.openshiftapps.com/auth/realms/comfandi/protocol/openid-connect/auth',
+        tokenEndpoint: 'http://keycloak-service-gonzaloaragon-dev.apps.sandbox.x8i5.p1.openshiftapps.com/auth/realms/comfandi/protocol/openid-connect/token',
       }
     }
   }
