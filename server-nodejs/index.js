@@ -69,7 +69,7 @@ const port = 5000;
 //------------------End Online token validation---------------------//
 
 //------------------Begin Offline token validation---------------------//
-const publicKey = '-----BEGIN PUBLIC KEY-----\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk9tD7acdqbnZ9X8EOq+8YhRq6f4HcWCx00+O2aPJOTvZ7IYyhyHV7sdoAXZXiHc/Zb2fZzTKWSJVEuIRjkpUt3ExkNLdvBYyL/V4du1isZAw5AN7DGdcRLKSNN4J90U4qKPc1Gch0KhNZdxzB1eyaSlxa9ICGhtZVWKq5izZ+n7pjHx3y4ViAWTY9lvWARVaAmtfAcrCUJbhH7yWEffJPKnel/3h62qS6+DnC/gDxLRrueURubGfTgQOWNXmzg+h8xpDNDSMQBZzuGA0q4tDGRiyyTE35b2UE2mcO604kHfC16GkBB648CidrxPSJ5qlqIKDwzIwNKbcGoWqaY9x1QIDAQAB\r\n-----END PUBLIC KEY-----';//JSON.parse(res.getBody().toString());
+const publicKey = '-----BEGIN PUBLIC KEY-----\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwBgGxrFXyGSFyTlBtlk5UyG/rMO0ELXQYbU7Jf9qq3OiwlULZpM88SMsOB5YF3t0cuXkv2Tz7w2PK/Wrp5MP3eUP5soszp9fYLDX438f4/ZWrRkHYnWxl65ty9qmFXubi2+yvllv1l3lQKUyb0Z0K/vrcMNT4BpUWABqUmHvoApGcIBzhyeZUcyqVg3jrGYSRJJPF5xKv/HX1Dtof9pnPBwjjIYZnqBosusLl2zhlLIU5L+0NMpYrP6xaTANNFsJfvhdEP66+TltzqiMyZ6aSZHyMsIrpwAv+pa83p00G5g3kM6Y6IXH7lR2oHyJs//jkLY/pe/FQBachWFFrWEzuQIDAQAB\r\n-----END PUBLIC KEY-----';//JSON.parse(res.getBody().toString());
 
 var jwt = require('express-jwt');
 
